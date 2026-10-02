@@ -1,0 +1,150 @@
+{
+  "mobile": [
+    {
+      "w": 320,
+      "l": "en",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 320,
+      "l": "roman",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 320,
+      "l": "ur",
+      "overflow": false,
+      "tabs": true,
+      "dir": "rtl",
+      "links": true
+    },
+    {
+      "w": 360,
+      "l": "en",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 360,
+      "l": "roman",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 360,
+      "l": "ur",
+      "overflow": false,
+      "tabs": true,
+      "dir": "rtl",
+      "links": true
+    },
+    {
+      "w": 390,
+      "l": "en",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 390,
+      "l": "roman",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 390,
+      "l": "ur",
+      "overflow": false,
+      "tabs": true,
+      "dir": "rtl",
+      "links": true
+    },
+    {
+      "w": 430,
+      "l": "en",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 430,
+      "l": "roman",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 430,
+      "l": "ur",
+      "overflow": false,
+      "tabs": true,
+      "dir": "rtl",
+      "links": true
+    },
+    {
+      "w": 768,
+      "l": "en",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 768,
+      "l": "roman",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 768,
+      "l": "ur",
+      "overflow": false,
+      "tabs": true,
+      "dir": "rtl",
+      "links": true
+    },
+    {
+      "w": 1440,
+      "l": "en",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 1440,
+      "l": "roman",
+      "overflow": false,
+      "tabs": true,
+      "dir": "ltr",
+      "links": true
+    },
+    {
+      "w": 1440,
+      "l": "ur",
+      "overflow": false,
+      "tabs": true,
+      "dir": "rtl",
+      "links": true
+    }
+  ],
+  "passed": true,
+  "consoleErrors": []
+}

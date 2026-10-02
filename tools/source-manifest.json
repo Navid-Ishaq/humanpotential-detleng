@@ -1,0 +1,20 @@
+{
+  "domain": "humanpotential.detleng.com",
+  "sources": {
+    "en": {
+      "path": "D:/Web-Sites-Ideas/humanpotential/humanpotential - Egnlsih.docx",
+      "sha": "606b4f398124bca2c0612769cbe4625d2b4a0db675484fdc587d1ff8768375a4",
+      "count": 587
+    },
+    "roman": {
+      "path": "D:/Web-Sites-Ideas/humanpotential/humanpotential - Roman Hindi Urdu.docx",
+      "sha": "0b246fe36482eb5b0d46903632bd1dfa7dd70e52d78a79499e783f4e9d94418a",
+      "count": 586
+    },
+    "ur": {
+      "path": "D:/Web-Sites-Ideas/humanpotential/humanpotential - Urdu.docx",
+      "sha": "cd65390af72036550fa11a7b24bbe7c933db1eac3635885b3dff47f2a7c25d7f",
+      "count": 572
+    }
+  }
+}

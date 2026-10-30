@@ -15,3 +15,5 @@ Verified locally on 30 October 2026.
 - PUSH.ps1 parses successfully. The helper was not executed; no commit, push or deployment was performed.
 
 Limits: localhost checks do not verify the eventual hosted deployment. The historical Word-source verification utility was not run because its original source paths are external to this project. Original reading preservation was checked against the existing local content.js backup instead. Native reset-dialog automation did not complete reliably, so reset confirmation is not reported as a passed browser check.
+
+Urdu typography follow-up: bundled Noto Naskh Arabic; browser confirmed 28px desktop and 25px at 390px mobile with no horizontal overflow. Font files included in publishing helper.

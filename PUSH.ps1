@@ -2,7 +2,7 @@ $ErrorActionPreference='Stop'
 $source=$PSScriptRoot
 $publish='D:\DETLENG2\humanpotential-detleng-publish'
 $remote='https://github.com/Navid-Ishaq/humanpotential-detleng.git'
-$files=@('index.html','styles.css','app.js','content.js','journey-data.js','README.md','TESTING.md','CNAME','PUSH.ps1','assets/favicon.svg','assets/potential-dawn.png','assets/potential-doors.png','assets/potential-lantern.png')
+$files=@('index.html','styles.css','app.js','content.js','journey-data.js','README.md','TESTING.md','CNAME','PUSH.ps1','assets/fonts/NotoNaskhArabic.ttf','assets/fonts/OFL.txt','assets/favicon.svg','assets/potential-dawn.png','assets/potential-doors.png','assets/potential-lantern.png')
 foreach($file in $files){if(!(Test-Path -LiteralPath (Join-Path $source $file))){throw "Missing file: $file"}}
 if(!(Test-Path -LiteralPath $publish)){git clone $remote $publish;if($LASTEXITCODE -ne 0){throw 'Clone failed.'}}
 Set-Location -LiteralPath $publish
@@ -24,3 +24,4 @@ if($diffCode -eq 1){git commit -m "Build multilingual guided Human Potential jou
 git push origin main
 if($LASTEXITCODE -ne 0){throw 'Push failed.'}
 Write-Host 'Human Potential push complete!' -ForegroundColor Green
+

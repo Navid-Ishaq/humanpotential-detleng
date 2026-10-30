@@ -39,3 +39,5 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "D:\DETLENG2\humanpotent
 ```
 
 It pulls the existing GitHub main branch in a separate publish folder, copies only the public website files and commits/pushes without force. Existing remote files are retained. Browser-local test notes do not enter Git or the published website. Check GitHub Pages and HTTPS after publishing.
+
+Urdu typography uses a locally bundled Noto Naskh Arabic variable font (SIL Open Font License, assets/fonts/OFL.txt). Reading is 28px desktop / 25px mobile, with larger Urdu controls and supporting text. No font CDN is required.

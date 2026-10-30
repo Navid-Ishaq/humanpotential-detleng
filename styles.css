@@ -5,3 +5,20 @@
 @media(max-width:360px){.brand{font-size:15px}.brand-mark{padding:8px}.header select{max-width:105px}.paths,.chapters{grid-template-columns:1fr}.hero h1{font-size:49px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media print{header,.reflection,.actions,#status,footer,dialog,.reader-controls,.reader-top,.hero-art{display:none!important}body{background:white;color:#111}#reader{display:block}.reader-layout{display:block}#reading{font-size:12pt}.section{padding:20px 0}.journey-layout{display:block}.step-card{break-inside:avoid}.privacy-panel{display:none}}
+
+/* Bundled Urdu typography: consistent Naskh on every device. */
+@font-face{font-family:'HP Urdu';src:url('assets/fonts/NotoNaskhArabic.ttf') format('truetype');font-weight:400 700;font-style:normal;font-display:swap}
+html[lang=ur] body{font-family:'HP Urdu','Segoe UI',sans-serif;font-size:22px;line-height:1.9}
+html[lang=ur] h1,html[lang=ur] h2,html[lang=ur] h3,html[lang=ur] .hero-art p{font-family:'HP Urdu',serif;letter-spacing:0;font-weight:700}
+html[lang=ur] #reading{font-size:28px;line-height:2;color:#193e38}
+html[lang=ur] #reading h3{font-family:'HP Urdu',serif;font-size:36px;font-weight:700;line-height:1.8}
+html[lang=ur] #reading p{margin-bottom:22px}
+html[lang=ur] nav,html[lang=ur] select,html[lang=ur] #menu{font-size:18px}
+html[lang=ur] .button,html[lang=ur] .outline,html[lang=ur] .text-button,html[lang=ur] label,html[lang=ur] .visited{font-size:19px;line-height:1.8}
+html[lang=ur] .quiet,html[lang=ur] .source-note,html[lang=ur] .eyebrow,html[lang=ur] .chapter-card small,html[lang=ur] .chapter-number{font-size:17px;line-height:1.9;letter-spacing:0}
+html[lang=ur] .reflection p,html[lang=ur] .privacy-panel p,html[lang=ur] footer p,html[lang=ur] footer a,html[lang=ur] footer button,html[lang=ur] .saved-note p{font-size:20px;line-height:1.9}
+html[lang=ur] .reflection h3,html[lang=ur] .chapter-card strong{font-size:27px;line-height:1.8}
+html[lang=ur] input,html[lang=ur] textarea{font-size:23px;line-height:1.9}
+html[lang=ur] .brand{font-family:'Segoe UI',Arial,sans-serif}
+@media(max-width:1100px){html[lang=ur] .header{gap:14px}html[lang=ur] nav{gap:12px;font-size:17px}}
+@media(max-width:650px){html[lang=ur] #reading{font-size:25px}html[lang=ur] #reading h3{font-size:31px}html[lang=ur] .header select{font-size:17px}html[lang=ur] .reader-controls{flex-wrap:wrap}html[lang=ur] .reflection{padding:23px}}

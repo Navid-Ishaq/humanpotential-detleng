@@ -17,3 +17,10 @@ Verified locally on 30 October 2026.
 Limits: localhost checks do not verify the eventual hosted deployment. The historical Word-source verification utility was not run because its original source paths are external to this project. Original reading preservation was checked against the existing local content.js backup instead. Native reset-dialog automation did not complete reliably, so reset confirmation is not reported as a passed browser check.
 
 Urdu typography follow-up: bundled Noto Naskh Arabic; browser confirmed 28px desktop and 25px at 390px mobile with no horizontal overflow. Font files included in publishing helper.
+
+## Activity verification
+- Syntax checks pass for app.js and activities-data.js.
+- All three language datasets contain eight activities, each with three priorities, scenario responses, explanations and suggested actions.
+- Browser checked priority → scenario → action/time flow; response-specific feedback; editable choices; unsure/other alternatives; saved choices after reload; language switching preserving the selected plan; Urdu RTL.
+- Findings TXT downloaded successfully. Mobile Urdu at 390px showed no horizontal overflow. No console errors observed.
+- Print stylesheet is included; OS print/PDF dialog was not automated. Hosted deployment remains for the owner to publish.

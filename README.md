@@ -41,3 +41,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "D:\DETLENG2\humanpotent
 It pulls the existing GitHub main branch in a separate publish folder, copies only the public website files and commits/pushes without force. Existing remote files are retained. Browser-local test notes do not enter Git or the published website. Check GitHub Pages and HTTPS after publishing.
 
 Urdu typography uses a locally bundled Noto Naskh Arabic variable font (SIL Open Font License, assets/fonts/OFL.txt). Reading is 28px desktop / 25px mobile, with larger Urdu controls and supporting text. No font CDN is required.
+
+## Click-first activities (30 October 2026)
+Every guided chapter now has its own three-stage activity: select what matters, explore a realistic situation with response-specific feedback, then choose an action and a time. “Not sure yet” and “Something else” remain valid choices. Writing is optional in a collapsed panel. Choices auto-save locally and use stable option indices so switching language translates the same selections.
+
+My Findings combines all started chapters, including unfinished choices labelled as not selected. Users can revisit any activity, download UTF-8 TXT, or use Print / Save as PDF. The browser print layout isolates the findings; PDF saving depends on the browser's print destination. Existing journal export also includes choices. Clear my journey clears activity choices together with the existing notes and plan. No server, live AI, assessment score or guaranteed outcome is involved.
+
+Implementation: activities-data.js contains eight topic-specific activities in each of English, Roman Urdu and Urdu. PUSH.ps1 includes the new file.
